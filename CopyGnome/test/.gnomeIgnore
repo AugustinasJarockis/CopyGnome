@@ -1,0 +1,5 @@
+  # All logs should be ignored
+
+ *.log$
+
+ignorable/

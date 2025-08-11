@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\CopyGnome.cpp" />
+    <ClCompile Include="src\StringUtils.cpp" />
+    <ClCompile Include="src\UserInput.cpp" />
+    <ClCompile Include="src\CopyDirectory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="test\gih.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\StringUtils.h" />
+    <ClInclude Include="src\UserInput.h" />
+    <ClInclude Include="src\CopyDirectory.h" />
+  </ItemGroup>
+</Project>
