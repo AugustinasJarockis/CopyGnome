@@ -66,12 +66,7 @@ std::string AdjustForRegex(std::string& str) {
             i++;
             continue;
         }
-        if (str[i] == '/') {
-            str.insert(str.begin() + i, '\\');
-            ++i;
-            continue;
-        }
-        if (str[i] == '.') {
+        if (str[i] == '.' || str[i] == '^' || str[i] == '/') {
             str.insert(str.begin() + i, '\\');
             ++i;
             continue;
